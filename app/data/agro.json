@@ -1,0 +1,40 @@
+[
+  {
+    "question": "What are your delivery rates?",
+    "answer": "We charge a flat rate of 35 cedis for bookings containing up to 10 items and 30 cedis for bookings with 11 or more items. The minimum number of items we pick up is 5.",
+    "category_name": "Pricing",
+    "category_slug": "pricing"
+  },
+  {
+    "question": "What factors determine the delivery fee for Satchel Delivery's services?",
+    "answer": "Delivery fees are determined by the quantity of individual recipients in each booking, not the distance traveled.",
+    "category_name": "Pricing",
+    "category_slug": "pricing"
+  },
+
+  {
+    "question": "Are there any additional charges based on distance?",
+    "answer": "No, our delivery fees are based on the number of items picked up, not the distance within Accra.",
+    "category_name": "Pricing",
+    "category_slug": "pricing"
+  },
+  {
+    "question": "Are there any hidden fees?",
+    "answer": "No, there are no hidden fees. Our pricing is transparent and straightforward.",
+    "category_name": "Pricing",
+    "category_slug": "pricing"
+  },
+  {
+    "question": "How can I pay for the delivery fees charged to my vendor account?",
+    "answer": "You can pay for delivery services through various payment methods available on our platform, including mobile money and bank transfers.",
+    "category_name": "Pricing",
+    "category_slug": "pricing"
+  },
+  
+  {
+    "question": "Do you offer subscription plans for frequent users?",
+    "answer": "Yes, we have subscription plans available for frequent users. Please contact our sales team for more details.",
+    "category_name": "Pricing",
+    "category_slug": "pricing"
+  }
+]
