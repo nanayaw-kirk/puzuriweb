@@ -1,20 +1,24 @@
 <template>
 	<div class="page">
 		
-		<div class="sections grid gap-10 md:gap-20">
+		<div class="sections grid gap-10 md:gap-20 md:pt-10">
 			<section class="container grid gap-6 md:gap-12">
-				<div class="flex flex-col mx-auto sm:max-w-2xl gap-4">
+				<div class="flex flex-col mx-auto sm:max-w-2xl items-center">
 					<h1 class="text-2xl sm:text-5xl font-semibold sm:font-black text-center">
-						Building a Foundation for <br>Sustainable Development
+						The {{$appName}} Grower Scheme
 					</h1>
 
-					<p class="text-foreground/70 text-sm sm:text-base text-center">
+					<p class="text-foreground/70 text-sm sm:text-base text-center mb-4">
 						We are a diversified conglomerate with interests in Agriculture, Logistics, Construction, and Social Impact.
 					</p>
+
+					<ui-button>
+						Get Started
+					</ui-button>
 				</div>
 
-				<div class="w-full aspect-video bg-transparent -mt-5 md:-mt-30 lg:-mt-40">
-					<img src="/static/pc_hero.png" class="w-full h-full object-contain md:object-cover" alt="">
+				<div class="w-full aspect-video bg-transparent -mt-15 md:-mt-30 lg:-mt-40">
+					<img src="/static/grower_sch.png" class="w-full h-full object-contain md:object-cover" alt="">
 				</div>
 
 			</section>

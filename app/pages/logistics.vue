@@ -2,7 +2,7 @@
 	<div class="sections grid gap-6 md:gap-12">
 		
 		<Head>
-			<Title>{{$agro}} - Nurturing Growth & Sustainability in Agriculture</Title>
+			<Title>{{$log}} - Driving Efficiency and Reliability in Supply Chain Management</Title>
 			<Meta name="description" :content="`Puzuri Agro is a leader in Ghana’s agricultural sector, blending innovation with excellence.`" />
 			<Meta name="keywords" :content="`Agriculture, Agric, Agro Company, Farm, Farmland, Farming`"></Meta>
 			<Meta name="robots" content="index, follow"></Meta>
@@ -12,107 +12,35 @@
 
 		<div class="grid gap-6 md:gap-8">
 			<div class="container p-0 md:pt-6">
-				<div class="grid gap-6 md:gap-12" >
-
-					<div class="hidden md:flex bg-cover bg-no-repeat object-bottom min-h-120 md:min-h-130  flex flex-col rounded-t-none rounded-4xl md:rounded-t-4xl relative" style="background-image : url(/static/puzuri.jpg)">
 
 
-						<div class="w-full top-0 absolute rounded-t-none rounded-4xl md:rounded-t-4xl bg-linear-to-b from-transparent to-black h-full flex flex-col">
+				<div class="bg-found flex bg-cover bg-no-repeat object-bottom h-120 md:h-160  flex flex-col rounded-t-none rounded-4xl md:rounded-t-4xl relative">
+
+					<img src="https://images.unsplash.com/photo-1573014089159-8ee711dc5a8e?w=1000&auto=format&fit=crop&q=100&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGxvZ2lzdGljc3xlbnwwfDB8MHx8fDI%3D" alt="" class="hidden md:block w-full h-full object-cover rounded-t-none rounded-4xl md:rounded-t-4xl">
+					<img src="https://images.unsplash.com/photo-1634638022845-1ab614a94128?w=1000&auto=format&fit=crop&q=100&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bG9naXN0aWNzfGVufDB8MXwwfHx8Mg%3D%3D" alt="" class="md:hidden w-full h-full object-cover rounded-t-none rounded-4xl md:rounded-t-4xl">
 
 
+					<div class="w-full top-0 absolute rounded-t-none rounded-4xl md:rounded-t-4xl bg-linear-to-b from-black/30 to-black h-full flex flex-col">
 
-							<div class="p-6 md:p-20  rounded-xl mt-auto">
-
-
-								<div class="w-full grid md:grid-cols-3 gap-2 md:gap-10">
-									<div class="lg:col-span-2">
-										<h1 class="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white">
-											Empowering Growth, <br> Building Futures.
-										</h1>
-									</div>
-
-									<div class="flex flex-col gap-y-4">
-										<p class="text-sm md:text-lg text-white/80">
-											Improve efficiency, provide a better customer experience with modern technology services.
-
-										</p>
+						<div class="p-6 md:p-20  mt-auto flex flex-wrap gap-6">
 
 
-										<div class="grid grid-cols-2 md:flex md:flex-row gap-4">
-											<nuxt-link :to="{name: 'about'}">
-												<ui-button size="lg">
-													Learn More
-												</ui-button>
-											</nuxt-link>
+							<div class="md:w-2/3">
+								<h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-4">
+									Driving Efficiency & Reliability in Supply Chain Management
+								</h1>
 
-
-											<nuxt-link :to="{name: 'contact'}">
-												<ui-button class="text-white bg-transparent !border-white" size="lg" variant="outline">
-													<span>
-														Get In Touch
-													</span>
-
-													<MoveRight/>
-
-												</ui-button>
-											</nuxt-link>
-										</div>
-									</div>
-								</div>
+								<p class="text-sm md:text-lg text-white/80">
+									Connecting businesses with smarter, faster, and more reliable logistics services across Ghana and beyond.
+								</p>
 							</div>
 
-						</div>
-					</div>
-
-
-					<div class="md:hidden bg-cover bg-no-repeat object-bottom min-h-120 md:min-h-130  flex flex-col rounded-t-none rounded-4xl md:rounded-t-4xl relative" style="background-image : url(/static/puzuri_mobi.jpg)">
-
-
-						<div class="w-full top-0 absolute rounded-t-none rounded-4xl md:rounded-t-4xl bg-linear-to-b from-transparent to-black h-full flex flex-col">
-
-
-
-							<div class="p-6 md:p-20  rounded-xl mt-auto">
-
-
-								<div class="w-full grid md:grid-cols-3 gap-2 md:gap-10">
-									<div class="lg:col-span-2">
-										<h1 class="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white">
-											Empowering Growth, <br> Building Futures.
-										</h1>
-									</div>
-
-									<div class="flex flex-col gap-y-4">
-										<p class="text-sm md:text-lg text-white/80">
-											Improve efficiency, provide a better customer experience with modern technology services.
-
-										</p>
-
-
-										<div class="grid grid-cols-2 md:flex md:flex-row gap-4">
-											<nuxt-link :to="{name: 'about'}">
-												<ui-button size="lg" class="w-full">
-													Learn More
-												</ui-button>
-											</nuxt-link>
-
-
-											<nuxt-link :to="{name: 'contact'}">
-												<ui-button class="text-white bg-transparent !border-white w-full" size="lg" variant="outline">
-													<span>
-														Get In Touch
-													</span>
-
-													<MoveRight/>
-
-												</ui-button>
-											</nuxt-link>
-										</div>
-									</div>
-								</div>
-							</div>
+							<img src="/logos/puz_log.svg" class="w-20 md:w-40 mt-auto md:ml-auto order-first md:order-none" alt="">
 
 						</div>
+
+
+
 					</div>
 				</div>	
 			</div>
@@ -120,43 +48,72 @@
 
 
 		<section class="container grid gap-6 md:gap-12 ">
-			<div class="md:max-w-4xl mx-auto">
-				<p class="md:text-center">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque necessitatibus ut odit reiciendis vitae omnis cum similique ea alias illo rem maiores excepturi aspernatur libero, provident eum fuga aliquid?
+			<div class="md:max-w-3xl mx-auto">
+				<p class="md:text-center sm:text-lg">
+					Puzuri Logistics ensures seamless movement of goods and services across Ghana and internationally through advanced logistics and supply chain solutions.
 				</p>
 			</div>
 
-			<div class="grid gap-4 md:gap-8 md:grid-cols-3">
-				<div class="flex gap-4">
-					<ui-avatar class="size-12 md:size-16 rounded bg-linear-to-l  from-yellow-300 to-amber-400 p-2 mb-2 md:mb-4">
+			<div class="grid gap-2 md:grid-cols-3">
+				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
 						<ui-avatar-image src="/illustrations/seeds.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
-						<h4 class="text-lg md:text-2xl font-black">Grains & Seeds</h4>
-						<p class="text-xs sm:text-sm text-foreground/80">
-							Certified Seed & Grain Production and Processing of Soybeans, Rice, Cowpea, Sorghum, and Maize.
+						<p class="font-medium text-sm text-foreground/80">
+							Land, Sea & Air Freight Transportation
 						</p>
 					</div>
 				</div>
-				<div class="flex gap-4">
-					<ui-avatar class="size-12 md:size-16 rounded bg-linear-to-l  from-yellow-300 to-amber-400 p-2 mb-2 md:mb-4">
+				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
 						<ui-avatar-image src="/illustrations/chicken.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
-						<h4 class="text-lg md:text-2xl font-black">Animal Husbandary</h4>
-						<p class="text-xs sm:text-sm text-foreground/80">
-							Aquaculture & Livestock Farming : Fish farming, poultry, and premium livestock breeding.
+						<p class="font-medium text-sm text-foreground/80">
+							Customs Clearance & Supply Chain Optimization
 						</p>
 					</div>
 				</div>
-				<div class="flex gap-4">
-					<ui-avatar class="size-12 md:size-16 rounded bg-linear-to-l  from-yellow-300 to-amber-400 p-2 mb-2 md:mb-4">
+				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
 						<ui-avatar-image src="/illustrations/trees.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
-						<h4 class="text-lg md:text-2xl font-black">Aggregation</h4>
-						<p class="text-xs sm:text-sm text-foreground/80">
-							Cash Crop Production & Aggregation : Cotton, Cashew, Rubber.
+						<p class="font-medium text-sm text-foreground/80">
+							Training Programs in Logistics & Supply Chain Management
+						</p>
+					</div>
+				</div>
+
+
+				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
+						<ui-avatar-image src="/illustrations/seeds.svg"></ui-avatar-image>
+					</ui-avatar>
+					<div class="expand flex flex-col gap-y-1">
+						<p class="font-medium text-sm text-foreground/80">
+							Warehousing & Distribution
+						</p>
+					</div>
+				</div>
+				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
+						<ui-avatar-image src="/illustrations/chicken.svg"></ui-avatar-image>
+					</ui-avatar>
+					<div class="expand flex flex-col gap-y-1">
+						<p class="font-medium text-sm text-foreground/80">
+							Farm Mechanization Services - Land preparation, Weed control
+						</p>
+					</div>
+				</div>
+				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
+						<ui-avatar-image src="/illustrations/trees.svg"></ui-avatar-image>
+					</ui-avatar>
+					<div class="expand flex flex-col gap-y-1">
+						<p class="font-medium text-sm text-foreground/80">
+							Rental of Heavy-Duty Machines, Farm Equipment & Vehicles
 						</p>
 					</div>
 				</div>
@@ -169,7 +126,38 @@
 		<section>
 			<div class="container">
 
-				<div class="h-100 rounded-2xl bg-primary"></div>
+				<div class="h-80  rounded-2xl relative w-full">
+					<img src="https://images.unsplash.com/photo-1720811559395-3ed8d1b16649?w=1200&auto=format&fit=crop&q=1000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJ1Y2tpbmd8ZW58MHwwfDB8fHwy" alt="" class="w-full h-full object-cover rounded-2xl">
+
+					<div class="w-full h-full top-0 absolute rounded-2xl bg-linear-to-r from-black to-black/50 flex flex justify-center items-center text-white">
+						<div class="grid md:grid-cols-2 p-10 md:px-20 gap-8">
+							<div class="flex flex-col">
+								<h1 class="text-2xl md:text-5xl font-black text-white mb-2 md:mb-4">
+									Ready to simplify your logistics operations?
+								</h1>
+								<p class="text-sm md:text-base">
+									Get in touch with us to put your project in the best hands
+								</p>
+
+							</div>
+
+							<div class="flex md:justify-end my-auto">
+								<nuxt-link :to="{name: 'contact'}">
+									<ui-button size="lg" class="w-full md:w-fit bg-log hover:bg-log/90">
+										<span>
+											Get In Touch
+										</span>
+
+										<MoveRight/>
+
+									</ui-button>
+								</nuxt-link>
+							</div>
+						</div>
+					</div>
+
+					<!--  -->
+				</div>
 
 			</div>
 		</section>
@@ -227,6 +215,7 @@
 </template>
 <script setup lang="ts">
 
+import { MoveRight } from 'lucide-vue-next'
 
 
 </script>

@@ -3,7 +3,7 @@
 		
 
 		<div class="grid gap-6 md:gap-8">
-			<div class="container p-0 md:pt-6">
+			<div class="container p-0">
 				<home-hero></home-hero>
 			</div>
 

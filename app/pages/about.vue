@@ -1,7 +1,7 @@
 <template>
 	<div class="page">
 		
-		<div class="sections grid gap-10 md:gap-20">
+		<div class="sections grid gap-10 md:gap-20 pt-2 md:pt-10">
 			<section class="container grid gap-6 md:gap-12">
 				<div class="grid md:grid-cols-2 gap-4 md:gap-8">
 					<h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold sm:font-black">
@@ -220,9 +220,34 @@
 					</div>
 				</div>
 
-				<ui-separator class="w-full" decorative></ui-separator>
 
-				<partials-sustainability-block></partials-sustainability-block>
+				<div class="p-5 md:p-8 bg-linear-to-b from-log/30 to-background grid md:grid-cols-2 gap-4 md:gap-12  items-center rounded-2xl w-full">
+					<div>
+						<div class="w-full aspect-square rounded-xl">
+							<img :src="'/team/rahman.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="">
+						</div>
+					</div>
+					<div class="flex flex-col w-full">
+						<h1 class="text-xl md:text-4xl font-black mb-2 leading-5 md:leading-none">
+							Leadership Shaped by Vision, Purpose, and Responsibility | {{$appName}} Leadership
+						</h1>
+
+						<p class="text-sm md:text-base">
+							Our leaders are guided by Puzuri’s mission to drive progress, create value, and deliver solutions that improve lives and strengthen communities — across agriculture, logistics, construction, and social impact.
+						</p>
+
+
+						<nuxt-link :to="{name: 'leadership'}" class="mt-6">
+							<ui-button size="lg" class="md:px-6 w-full md:w-fit" variant="outline">
+								{{$appName}} Leadership
+							</ui-button>
+						</nuxt-link>
+					</div>
+				</div>
+
+				<div class="md:border md:rounded-lg md:p-8">
+					<partials-sustainability-block></partials-sustainability-block>
+				</div>
 
 			</section>
 

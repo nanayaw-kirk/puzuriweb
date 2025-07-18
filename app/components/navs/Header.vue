@@ -8,8 +8,8 @@
 					<partials-toggle-menu class="lg:hidden"/>
 
 					<nuxt-link :to="{name: 'index'}" class="flex items-center gap-x-2">
-						<logos-group class="h-6 md:h-10 w-fit hidden md:block fill-foreground"></logos-group>
-						<logos-group-icon class="h-6 md:h-10 w-fit md:hidden"></logos-group-icon>
+						<logos-group class="h-7 md:h-10 w-fit fill-foreground"></logos-group>
+						<!-- <logos-group-icon class="h-6 md:h-10 w-fit md:hidden"></logos-group-icon> -->
 					</nuxt-link>
 				</nav>
 
@@ -24,8 +24,8 @@
 										<ui-navigation-menu-link as-child>
 											<div class="!p-0 grid !gap-0">
 												<nuxt-link :to="{name: 'about'}" class="flex flex-row w-full gap-2 items-center p-2">
-													<span class="size-12 bg-primary">
-														
+													<span class="size-12 bg-border p-3 rounded-xl">
+														<img :src="'/illustrations/info.svg'" class="w-full h-full object-contain" alt="Link Illustration">
 													</span>
 													<span class="expand flex flex-col">
 														<span class="font-semibold text-sm">Our Story</span>
@@ -44,8 +44,8 @@
 										<ui-navigation-menu-link as-child>
 											<div class="!p-0 grid !gap-0">
 												<nuxt-link :to="{name: 'leadership'}" class="flex flex-row w-full gap-2 items-center p-2">
-													<span class="size-12 bg-primary">
-														<!-- <img :src="link.icon" alt="Link Illustration"> -->
+													<span class="size-12 bg-border p-3 rounded-xl">
+														<img :src="'/illustrations/leadership.svg'" class="w-full h-full object-contain" alt="Link Illustration">
 													</span>
 													<span class="expand flex flex-col">
 														<span class="font-semibold text-sm">Leadership</span>
@@ -70,13 +70,13 @@
 										<ui-navigation-menu-link as-child>
 											<div class="!p-0 grid !gap-0">
 												<nuxt-link :to="{name: 'agro'}" class="flex flex-row w-full gap-2 items-center p-2">
-													<span class="size-12 bg-primary">
-														
+													<span class="size-12 bg-black p-3 rounded-xl">
+														<img :src="'/logos/puz_agro_icon.svg'" class="w-full h-full object-contain" alt="Link Illustration">
 													</span>
 													<span class="expand flex flex-col">
 														<span class="font-semibold text-sm">{{$agro}}</span>
 														<span class="line-clamp-1 text-xs text-foreground/70">
-															Learn about {{$appName}} and what we stand for
+															Nurturing Growth & Sustainability in Agriculture
 														</span>
 													</span>
 
@@ -90,13 +90,13 @@
 										<ui-navigation-menu-link as-child>
 											<div class="!p-0 grid !gap-0">
 												<nuxt-link :to="{name: 'logistics'}" class="flex flex-row w-full gap-2 items-center p-2">
-													<span class="size-12 bg-primary">
-														<!-- <img :src="link.icon" alt="Link Illustration"> -->
+													<span class="size-12 bg-black p-3 rounded-xl">
+														<img :src="'/logos/puz_log_icon.svg'" class="w-full h-full object-contain" alt="Link Illustration">
 													</span>
 													<span class="expand flex flex-col">
 														<span class="font-semibold text-sm">{{$log}}</span>
 														<span class="line-clamp-1 text-xs text-foreground/70">
-															Know the spearheads of our operations
+															Driving Efficiency and Reliability in Supply Chain Management
 														</span>
 													</span>
 
@@ -113,13 +113,13 @@
 										<ui-navigation-menu-link as-child>
 											<div class="!p-0 grid !gap-0">
 												<nuxt-link :to="{name: 'construction'}" class="flex flex-row w-full gap-2 items-center p-2">
-													<span class="size-12 bg-primary">
-														<!-- <img :src="link.icon" alt="Link Illustration"> -->
+													<span class="size-12 bg-black p-3 rounded-xl">
+														<img :src="'/logos/puz_const_icon.svg'" class="w-full h-full object-contain" alt="Link Illustration">
 													</span>
 													<span class="expand flex flex-col">
 														<span class="font-semibold text-sm">{{$const}}</span>
 														<span class="line-clamp-1 text-xs text-foreground/70">
-															Know the spearheads of our operations
+															Building a Foundation for Sustainable Development
 														</span>
 													</span>
 

@@ -1,7 +1,7 @@
 <template>
 	<div class="page">
 		
-		<div class="sections grid gap-10 md:gap-20">
+		<div class="sections grid gap-10 md:gap-20  md:pt-10">
 			<section class="container grid gap-6 md:gap-12">
 				<div class="flex flex-col mx-auto sm:max-w-2xl gap-4">
 					<h1 class="text-2xl sm:text-5xl font-semibold sm:font-black text-center">
@@ -15,8 +15,6 @@
 
 				<div class="w-full aspect-video bg-transparent -mt-5 md:-mt-30 lg:-mt-40">
 					<img src="/static/pc_hero.png" class="w-full h-full object-contain md:object-cover" alt="">
-					<!-- <img src="/static/pc_hero.png" class="w-full h-full object-cover hidden md:block" alt=""> -->
-					<!-- <img src="/static/about_mobi.png" class="w-full h-full object-cover md:hidden" alt=""> -->
 				</div>
 
 			</section>
