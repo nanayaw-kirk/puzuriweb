@@ -32,8 +32,8 @@
 										Empowering Communities, <br> Enriching Lives
 									</h1>
 
-									<p class="text-sm md:text-lg text-white/80">
-										Committed to creating lasting impact through education, health, economic empowerment, and environmental sustainability.
+									<p class="text-sm md:text-lg text-white/80 md:w-2/3">
+										The Puzuri Foundation—a catalyst for sustainable development across Ghana.
 									</p>
 								</div>
 
@@ -51,18 +51,85 @@
 		<section>
 			<div class="container">
 
-				<div class="grid md:grid-cols-2 gap-4 md:gap-8">
+				<p class="text-foreground/80 text-sm sm:text-base">
+					Puzuri Foundation is the social impact arm of the Puzuri Group, driving lasting change through education, health, economic empowerment, and sustainability. Aligned with the UN SDGs, we partner with local stakeholders to deliver impactful projects—from clean water and healthcare to renewable energy and inclusive infrastructure.
+				</p>
+			</div>
+		</section>
+
+
+		<section>
+			<div class="container">
+
+				<div class="grid  gap-4 md:gap-8">
 					<h1 class="text-xl md:text-4xl font-semibold md:font-black mb-2 md:col-span-2">
-						Empowering Communities. <br> Driving Sustainable Change.
+						Focus Areas
 					</h1>
 
-					<p class="text-foreground/80 text-sm sm:text-base">
-						Puzuri Foundation is the CSR arm of Puzuri Group of Companies, focused on creating lasting impact through education, health, economic empowerment, and environmental sustainability. We empower individuals and communities with the tools and opportunities to thrive, aligning our efforts with the UN Sustainable Development Goals (SDGs).
-					</p>
+					
 
-					<p class="text-foreground/80 text-sm sm:text-base">
-						Through partnerships with local stakeholders, we deliver projects that address real needs—from education and healthcare to clean water, infrastructure, and renewable energy. <br> Together, we are building a future where progress benefits everyone.
-					</p>
+					<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+						
+
+
+						<div class="grid gap-2">
+							<div>
+								<h1 class="text-base md:text-2xl font-bold">
+									Education & Skills
+								</h1>
+								<p class="text-foreground/80 text-xs sm:text-sm md:mb-2 line-clamp-2">
+									Programs for literacy, vocational training, digital skills.
+								</p>
+							</div>
+							<div class="w-full max-w-full overflow-hidden aspect-square md:h-50 bg-primary/10 rounded-xl">
+								<img src="/static/edu.jpg" class="rounded-[inherit] w-full h-full object-cover object-top" alt="Foundation Image">
+							</div>
+						</div>
+
+						<div class="grid gap-2">
+							<div>
+								<h1 class="text-base md:text-2xl font-bold">
+									Health & Well‑Being
+								</h1>
+								<p class="text-foreground/80 text-xs sm:text-sm md:mb-2 line-clamp-2">
+									Clinics, screenings, insurance registration drives.
+								</p>
+							</div>
+							<div class="w-full max-w-full overflow-hidden aspect-square md:h-50 bg-primary/10 rounded-xl">
+								<img src="/static/health.jpg" class="rounded-[inherit] w-full h-full object-cover object-top" alt="Foundation Image">
+							</div>
+						</div>
+
+						<div class="grid gap-2">
+							<div>
+								<h1 class="text-base md:text-2xl font-bold">
+									Youth Empowerment
+								</h1>
+								<p class="text-foreground/80 text-xs sm:text-sm md:mb-2 line-clamp-2">
+									Entrepreneurial training, community leadership, agri‑tech.
+								</p>
+							</div>
+							<div class="w-full max-w-full overflow-hidden aspect-square md:h-50 bg-primary/10 rounded-xl">
+								<img src="/static/empower.jpg" class="rounded-[inherit] w-full h-full object-cover object-top" alt="Foundation Image">
+							</div>
+						</div>
+
+						<div class="grid gap-2">
+							<div>
+								<h1 class="text-base md:text-2xl font-bold">
+									Clean Water & Sanitation
+								</h1>
+								<p class="text-foreground/80 text-xs sm:text-sm md:mb-2 line-clamp-2">
+									Boreholes, hygiene education, irrigation.
+								</p>
+							</div>
+							<div class="w-full max-w-full overflow-hidden aspect-square md:h-50 bg-primary/10 rounded-xl">
+								<img src="/static/water.jpg" class="rounded-[inherit] w-full h-full object-cover object-top" alt="Foundation Image">
+							</div>
+						</div>
+
+						
+					</div>
 				</div>
 			</div>
 		</section>
@@ -84,22 +151,16 @@
 							Help us empower communities and drive lasting change through education, health, and sustainability. Together, we can build a brighter future.
 						</p>
 
+						<nuxt-link :to="{name: 'contact'}" class="mt-6">
+							<ui-button size="lg" class="w-full md:w-fit bg-found hover:bg-found/90">
+								<span>
+									Get Involved
+								</span>
 
-						<div class="mt-5 grid md:grid-cols-2 gap-4">
-							<div class="bg-background/50 border p-4 rounded-md flex flex-col">
-								<h5 class="font-black">Momo</h5>
-								<p class="text-sm">Name: Puzuri Agro</p>
-								<p class="text-sm">Number: 0595825447</p>
-							</div>
+								<MoveRight/>
 
-
-							<div class="bg-background/50 border p-4 rounded-md flex flex-col">
-								<h5 class="font-black">Bank</h5>
-								<p class="text-sm">Name: Puzuri Foundation</p>
-								<p class="text-sm">Acc No: 0235001320015</p>
-								<p class="text-sm">Bank: Prudential Bank</p>
-							</div>
-						</div>
+							</ui-button>
+						</nuxt-link>
 					</div>
 				</div>
 			</div>
@@ -111,20 +172,27 @@
 			<div class="container">
 
 				<div class="grid md:grid-cols-2 gap-4 md:gap-8">
-					<div class="border p-4 rounded-md hover:shadow grid gap-4" v-for="project in csr" :key="project?.title">
-						<div class="w-full rounded-md aspect-video bg-found">
-							<img :src="project?.cover_image" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
-						</div>
-						<div class="">
 
-							<h1 class="text-xl md:text-2xl font-semibold md:font-black mb-2 md:col-span-2 px-2">
-								{{project?.title}}
-							</h1>
+					<h1 class="text-xl md:text-4xl font-semibold md:font-black mb-2 md:col-span-2">
+						{{$appName}} Foundation Projects
+					</h1>
 
 
-							<div class="grid gap-4 grid-cols-3">
-								<div class="w-full aspect-square bg-found rounded-md" v-for="img in project?.gallery" :key="img">
-									<img :src="img" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
+
+					<div class="md:col-span-2 grid md:grid-cols-3 gap-4 md:gap-8">
+						<div class="border p-2 rounded-md hover:shadow grid gap-4" v-for="project in csr" :key="project?.title">
+							<div class="w-full rounded-md aspect-video bg-found">
+								<img :src="project?.cover_image" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
+							</div>
+							<div class="">
+
+								<h1 class="text-base md:text-xl font-bold md:col-span-2 line-clamp-2">{{project?.title}}</h1>
+								<p class="text-xs sm:text-sm text-foreground/80 line-clamp-2 mb-2">{{project?.subtext}}</p>
+
+								<div class="grid gap-4 grid-cols-3">
+									<div class="w-full aspect-square bg-found rounded-md" v-for="img in project?.gallery" :key="img">
+										<img :src="img" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
+									</div>
 								</div>
 							</div>
 						</div>
@@ -167,7 +235,7 @@
 	</div>	
 </template>
 <script setup lang="ts">
-
+import { MoveRight } from 'lucide-vue-next'
 import data from "../app/data/csr.json"
 
 const csr = computed(() => data)

@@ -11,8 +11,8 @@
 
 
 		<section class="md:py-15 pt-4">
-			<div class="container grid md:grid-cols-2 gap-4 md:gap-12">
-				<div class="grid gap-4 my-auto">
+			<div class="container px-0 grid md:grid-cols-2 gap-4 md:gap-12">
+				<div class="grid gap-4 my-auto px-4 md:px-0">
 					<div>
 						<h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold sm:font-black">
 							Nurturing Growth & Sustainability in Agriculture
@@ -23,55 +23,15 @@
 					</p>
 				</div>
 
-				<div class="hidden md:grid gap-4 grid-cols-3 mb-auto">
-					<div class="grid gap-4">
-						<div class="h-40 w-full bg-primary rounded-2xl">
-							<img src="/static/grains.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-						</div>
-						<div class="h-40 w-full bg-primary rounded-2xl">
-							<img src="/static/agro.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-						</div>
-					</div>
-
-					<div class="grid gap-4">
-						<div class="h-35 w-full bg-primary rounded-2xl">
-							<img src="/static/corn.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-						</div>
-						<div class="h-50 w-full bg-primary rounded-2xl">
-							<img src="/static/poultry.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-						</div>
-					</div>
-
-					<div class="grid gap-4">
-						<div class="h-50 w-full bg-primary rounded-2xl">
-							<img src="/static/agro.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-						</div>
-						<div class="h-35 w-full bg-primary rounded-2xl">
-							<img src="/static/cattle.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-						</div>
-					</div>
+				<div class="mb-auto w-full aspect-video">
+					<img :src="'/static/agro_hero.png'" class="hidden md:block h-full w-full object-cover  object-top" alt="">
+					<img :src="'/static/agro_mobi.png'" class="md:hidden h-full w-full object-cover  object-top" alt="">
 				</div>
 			</div>
 		</section>
 
 
-		<section class="md:hidden grid gap-4 grid-cols-3">
-			<div class="h-40 bg-primary rounded-r-2xl">
-				<img src="/static/poultry.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-			</div>
-			<div class="h-30 mt-auto bg-primary rounded-2xl">
-				<img src="/static/agro.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-			</div>
-			<div class="h-40 bg-primary rounded-l-2xl">
-				<img src="/static/grains.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-			</div>
-			<div class="h-35 bg-primary col-span-2 rounded-r-2xl">
-				<img src="/static/cattle_2.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-			</div>
-			<div class="h-30 mb-auto bg-primary rounded-l-2xl">
-				<img src="/static/corn.jpg" class="w-full h-full object-cover rounded-[inherit] object-top" alt="">
-			</div>
-		</section>
+		
 
 		<section class="md:hidden">
 			<div class="container">
@@ -207,21 +167,21 @@
 						<div class="flex flex-col gap-y-4 p-6 mx-auto md:w-4/5 pt-10">
 
 							<div class="flex flex-col">
-								<h1 class="text-3xl md:text-4xl lg:text-6xl font-black text-white">
+								<h1 class="text-3xl md:text-4xl font-black text-white">
 
-									{{$agro}} <br> Grower Scheme
+									Grow More. Earn More. <br> Build a Better Future.
 								</h1>
 							</div>
 							<p class="text-sm md:text-base text-white/90">
-								You can opt in and let us collect payments on your behalf when we deliver to your customers. We process settlements promptly, usually at the close of business each day, to keep your finances in order!
+								The Puzuri Grower Scheme empowers smallholder farmers with the tools, training, and access they need to thrive in modern agriculture.
 							</p>
 
 							<div>
-								<a href="https://forms.gle/4XAo7DY1WoZn4sz79" target="blank">
+								<nuxt-link :to="{name: 'grower'}">
 									<ui-button size="lg" class="w-full sm:w-fit">
-										Become A Grower	
+										Learn More
 									</ui-button>
-								</a>
+								</nuxt-link>
 							</div>
 						</div>
 					</div>

@@ -8,8 +8,7 @@
 					<partials-toggle-menu class="lg:hidden"/>
 
 					<nuxt-link :to="{name: 'index'}" class="flex items-center gap-x-2">
-						<logos-group class="h-7 md:h-10 w-fit fill-foreground"></logos-group>
-						<!-- <logos-group-icon class="h-6 md:h-10 w-fit md:hidden"></logos-group-icon> -->
+						<logos-group class="h-7 md:h-10 w-20 md:w-30 fill-foreground"></logos-group>
 					</nuxt-link>
 				</nav>
 

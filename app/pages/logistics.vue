@@ -16,8 +16,8 @@
 
 				<div class="bg-found flex bg-cover bg-no-repeat object-bottom h-120 md:h-160  flex flex-col rounded-t-none rounded-4xl md:rounded-t-4xl relative">
 
-					<img src="https://images.unsplash.com/photo-1573014089159-8ee711dc5a8e?w=1000&auto=format&fit=crop&q=100&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGxvZ2lzdGljc3xlbnwwfDB8MHx8fDI%3D" alt="" class="hidden md:block w-full h-full object-cover rounded-t-none rounded-4xl md:rounded-t-4xl">
-					<img src="https://images.unsplash.com/photo-1634638022845-1ab614a94128?w=1000&auto=format&fit=crop&q=100&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bG9naXN0aWNzfGVufDB8MXwwfHx8Mg%3D%3D" alt="" class="md:hidden w-full h-full object-cover rounded-t-none rounded-4xl md:rounded-t-4xl">
+					<img src="/static/p_log.jpg" alt="" class="hidden md:block w-full h-full object-cover rounded-t-none rounded-4xl md:rounded-t-4xl">
+					<img src="/static/p_log_mobi.jpg" alt="" class="md:hidden w-full h-full object-cover rounded-t-none rounded-4xl md:rounded-t-4xl">
 
 
 					<div class="w-full top-0 absolute rounded-t-none rounded-4xl md:rounded-t-4xl bg-linear-to-b from-black/30 to-black h-full flex flex-col">
@@ -56,8 +56,8 @@
 
 			<div class="grid gap-2 md:grid-cols-3">
 				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
-					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
-						<ui-avatar-image src="/illustrations/seeds.svg"></ui-avatar-image>
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-pink-100 to-log p-2">
+						<ui-avatar-image src="/illustrations/freight.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
 						<p class="font-medium text-sm text-foreground/80">
@@ -66,8 +66,8 @@
 					</div>
 				</div>
 				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
-					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
-						<ui-avatar-image src="/illustrations/chicken.svg"></ui-avatar-image>
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-pink-100 to-log p-2">
+						<ui-avatar-image src="/illustrations/supply_chain.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
 						<p class="font-medium text-sm text-foreground/80">
@@ -76,8 +76,8 @@
 					</div>
 				</div>
 				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
-					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
-						<ui-avatar-image src="/illustrations/trees.svg"></ui-avatar-image>
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-pink-100 to-log p-2">
+						<ui-avatar-image src="/illustrations/training.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
 						<p class="font-medium text-sm text-foreground/80">
@@ -88,8 +88,8 @@
 
 
 				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
-					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
-						<ui-avatar-image src="/illustrations/seeds.svg"></ui-avatar-image>
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-pink-100 to-log p-2">
+						<ui-avatar-image src="/illustrations/warehouse.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
 						<p class="font-medium text-sm text-foreground/80">
@@ -98,8 +98,8 @@
 					</div>
 				</div>
 				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
-					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
-						<ui-avatar-image src="/illustrations/chicken.svg"></ui-avatar-image>
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-pink-100 to-log p-2">
+						<ui-avatar-image src="/illustrations/tractor.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
 						<p class="font-medium text-sm text-foreground/80">
@@ -108,8 +108,8 @@
 					</div>
 				</div>
 				<div class="flex items-center gap-4 border p-2 shadow rounded-lg">
-					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-log to-amber-700/70 p-2">
-						<ui-avatar-image src="/illustrations/trees.svg"></ui-avatar-image>
+					<ui-avatar class="size-12 md:size-14 rounded bg-linear-to-br  from-pink-100 to-log p-2">
+						<ui-avatar-image src="/illustrations/bulldoze.svg"></ui-avatar-image>
 					</ui-avatar>
 					<div class="expand flex flex-col gap-y-1">
 						<p class="font-medium text-sm text-foreground/80">
@@ -127,7 +127,7 @@
 			<div class="container">
 
 				<div class="h-80  rounded-2xl relative w-full">
-					<img src="https://images.unsplash.com/photo-1720811559395-3ed8d1b16649?w=1200&auto=format&fit=crop&q=1000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJ1Y2tpbmd8ZW58MHwwfDB8fHwy" alt="" class="w-full h-full object-cover rounded-2xl">
+					<img src="/static/p_log.jpg" alt="" class="w-full h-full object-cover rounded-2xl">
 
 					<div class="w-full h-full top-0 absolute rounded-2xl bg-linear-to-r from-black to-black/50 flex flex justify-center items-center text-white">
 						<div class="grid md:grid-cols-2 p-10 md:px-20 gap-8">
@@ -156,7 +156,6 @@
 						</div>
 					</div>
 
-					<!--  -->
 				</div>
 
 			</div>
@@ -183,12 +182,12 @@
 
 
 		<section>
-			<div class="container grid lg:grid-cols-3 gap-6 md:gap-12">
+			<div class="container grid lg:grid-cols-3 gap-6 md:gap-12 md:border md:rounded-lg md:p-8">
 				<div>
 					
 					<span class="text-xs uppercase mb-2">FAQs</span>
 					<h2 class="text-2xl md:text-4xl font-bold">Have Questions?</h2>
-					<p class="mt-2 mb-4 text-foreground/80 text-sm">Get Answers about {{$agro}} from frequently asked questions.</p>
+					<p class="mt-2 mb-4 text-foreground/80 text-sm">Get Answers about {{$log}} from frequently asked questions.</p>
 
 
 					<nuxt-link :to="{name: 'contact'}">
@@ -204,7 +203,7 @@
 				</div>
 
 				<div class="lg:col-span-2">
-					<faqs-agro></faqs-agro>
+					<faqs-log></faqs-log>
 				</div>
 			</div>
 		</section>

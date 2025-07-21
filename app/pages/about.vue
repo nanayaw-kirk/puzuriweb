@@ -1,18 +1,22 @@
 <template>
 	<div class="page">
+
+		<Head>
+			<Title>{{$appName}} Group of Companies - About Us</Title>
+			<Meta name="description" :content="`Group of Companies - Empowering Growth, Building Futures.`" />
+			<Meta name="keywords" :content="`Agriculture, Agric, Agro Company, Farm, Farmland, Farming, Mechanized Agriculture, Logistics, Last Mile Logistics, Construction, Construction Company, Real Estate`"></Meta>
+			<Meta name="robots" content="index, follow"></Meta>
+		</Head>
 		
 		<div class="sections grid gap-10 md:gap-20 pt-2 md:pt-10">
 			<section class="container grid gap-6 md:gap-12">
 				<div class="grid md:grid-cols-2 gap-4 md:gap-8">
-					<h1 class="text-3xl md:text-5xl lg:text-6xl font-semibold sm:font-black">
-						Empowering Growth, Building Futures.
+					<h1 class="text-3xl  md:text-4xl lg:text-6xl font-semibold sm:font-black">
+						Empowering Growth, <br> Building Futures.
 					</h1>
 
 					<p class="text-foreground/70 text-sm md:text-base">
 						We are a diversified conglomerate with interests in Agriculture, Logistics, Construction, and Social Impact. Guided by excellence, innovation, and integrity, we create value, empower communities, and drive meaningful progress for a sustainable future.
-
-
-
 					</p>
 				</div>
 
@@ -28,7 +32,7 @@
 				<div class="grid">
 					<span class="text-xs uppercase mb-2">Our Vision</span>
 					<h2 class="text-xl md:text-4xl font-bold md:max-w-4xl leading-6 sm:leading-none">
-						To be a trusted leader in Agro, Logistics, and Construction—known for innovation, sustainability, and impact across Ghana, Africa, and beyond.
+						To be a premier household name for innovation, excellence and positive impact globally.
 					</h2>
 				</div>
 
@@ -39,38 +43,44 @@
 
 				<partials-client-wall class="bg-muted p-2 md:p-4 rounded-xl dark:bg-[#eff4fa]"></partials-client-wall>
 
-				
+				<div class="grid">
+					<span class="text-xs uppercase mb-2">Our Mission</span>
+					<h2 class="text-xl md:text-4xl font-bold md:max-w-4xl leading-6 sm:leading-none">
+						To create innovative solutions and build meaningful partnerships that enhance lives, strengthen businesses, and shape a brighter future.
+					</h2>
+				</div>
+
 
 				<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
 					
-					<div class="flex flex-col items-center bg-border p-4 md:py-8 rounded-xl">
+					<div class="flex flex-col items-center dark:bg-border bg-primary/10  p-4 md:py-8 rounded-xl">
 						<h6 class="text-2xl md:text-4xl font-black">7,000+</h6>
 						<span class="text-xs">Capacities Built</span>
 					</div>
 
-					<div class="flex flex-col items-center bg-border p-4 md:py-8 rounded-xl">
+					<div class="flex flex-col items-center dark:bg-border bg-primary/10  p-4 md:py-8 rounded-xl">
 						<h6 class="text-2xl md:text-4xl font-black">5,000+</h6>
 						<span class="text-xs">Satisfied Clients</span>
 					</div>
 
 
-					<div class="flex flex-col items-center bg-border p-4 md:py-8 rounded-xl">
+					<div class="flex flex-col items-center dark:bg-border bg-primary/10  p-4 md:py-8 rounded-xl">
 						<h6 class="text-2xl md:text-4xl font-black">5,000+</h6>
 						<span class="text-xs">Workforce</span>
 					</div>
 
-					<div class="flex flex-col items-center bg-border p-4 md:py-8 rounded-xl">
+					<div class="flex flex-col items-center dark:bg-border bg-primary/10  p-4 md:py-8 rounded-xl">
 						<h6 class="text-2xl md:text-4xl font-black">6+</h6>
 						<span class="text-xs">Sectors Impacted</span>
 					</div>
 
-					<div class="flex flex-col items-center bg-border p-4 md:py-8 rounded-xl">
+					<div class="flex flex-col items-center dark:bg-border bg-primary/10  p-4 md:py-8 rounded-xl">
 						<h6 class="text-2xl md:text-4xl font-black">3</h6>
 						<span class="text-xs">Subsidiaries</span>
 					</div>
 
 
-					<div class="flex flex-col items-center bg-border p-4 md:py-8 rounded-xl">
+					<div class="flex flex-col items-center dark:bg-border bg-primary/10  p-4 md:py-8 rounded-xl">
 						<h6 class="text-2xl md:text-3xl font-black">10,000+</h6>
 						<span class="text-xs">Lives Impacted</span>
 					</div>

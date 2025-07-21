@@ -1,18 +1,22 @@
 [
  {
-  "question": "What crops does Puzuri Agro specialize in?",
-  "answer": "Puzuri Agro specializes in grains and certified seeds for soybeans, rice, cowpea, sorghum, and maize."
+  "question": "How does Puzuri Agro support soybean farmers?",
+  "answer": "Puzuri Agro partners with Ghana’s National Service Scheme (NSS) to train outgrowers in sustainable farming. For example, in June 2024 Puzuri and NSS trained 1,790 soya farmers from northern Ghana on Good Agronomic Practices (GAP) to improve crop yields and livelihoods"
 },
 {
-  "question": "How does Puzuri Agro ensure the quality of its seeds?",
-  "answer": "We maintain strict quality standards through partnerships with the Ministry of Food and Agriculture (MoFA) and the Savanna Agricultural Research Institute (SARI)."
+  "question": "What innovative agricultural partnerships does Puzuri Agro engage in?",
+  "answer": "Puzuri Agro collaborates with cutting-edge agritech companies. In 2024 it signed a collaboration with BioAquaGarden (Malta) to implement combined greenhouse and aquaponic systems for vegetables, fruits, and fish, advancing sustainable farming and food security in Ghana"
 },
 {
-  "question": "Does Puzuri Agro offer consulting services for farmers?",
-  "answer": "Yes, we provide agribusiness consultancy services to help farmers and organizations improve productivity and sustainability."
+  "question": "Where does Puzuri Agro operate and have impact?",
+  "answer": "Puzuri Agro’s operations focus on northern Ghana. Recent programs have reached farmers in districts such as Mion, Yendi, and Tamale Metro in the Northern Region The company also works in the Upper East Region, for example launching an outgrower scheme with the Irrigation Company of Upper Region  ICOUR) to support farmers there"
 },
 {
-  "question": "Is Puzuri Agro involved in value-added agricultural products?",
-  "answer": "Yes, we process and supply value-added agricultural products alongside our core seed and grain operations."
+  "question": "How does Puzuri Agro contribute to sustainable development?",
+  "answer": "Puzuri Agro’s initiatives align with UN Sustainable Development Goals. Its training programs promote food security (SDG 2) and poverty reduction (SDG 1) by improving yields, and they emphasize efficient resource use (SDG 12). For instance, the soya farmer training explicitly targeted SDGs like Zero Hunger and Responsible Production."
+},
+{
+  "question": "What is the Puzuri Outgrower Scheme (POS) and how does it help farmers?",
+  "answer": "The Puzuri Outgrower Scheme (POS) is a program in partnership with Ghana’s ICOUR irrigation company to empower farmers. Launched in 2024 in the Upper East Region, POS provides farmers in the ICOUR irrigation scheme with access to inputs, training, and market linkages to increase their productivity"
 }
 ]

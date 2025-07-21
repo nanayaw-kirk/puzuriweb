@@ -37,7 +37,7 @@
 
 				<div >
 					<nuxt-link :to="{name: 'index'}" class="flex mb-4">
-						<logos-group class="h-8 md:h-10 w-fit !fill-white"></logos-group>
+						<logos-group class="h-8 md:h-10 w-30 !fill-white"></logos-group>
 					</nuxt-link>
 
 					<p class="text-sm">
@@ -66,8 +66,8 @@
 				<div class="grid gap-2">
 					<p class="text-sm">BB3082 Chlorine St <br> NS-414-7914, <br>Fuo, Tamale</p>
 					<div class="flex flex-col">
-						<a class="text-sm text-primary underline" href="tel:037 209 6740">037 209 6740</a>
-						<a class="text-sm text-primary underline" href="tel:037 209 6739">037 209 6739</a>
+						<a class="text-sm text-primary underline" href="tel:037 209 6740"><span class="text-white">Tamale</span>: 037 209 6740</a>
+						<a class="text-sm text-primary underline" href="tel:037 209 6739"><span class="text-white">Accra</span> : 030 398 2170</a>
 					</div>
 				</div>
 			</div>

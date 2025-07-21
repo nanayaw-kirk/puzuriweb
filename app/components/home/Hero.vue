@@ -3,7 +3,7 @@
 		<div class="bg-found flex bg-cover bg-no-repeat object-bottom h-120 md:h-160  flex flex-col rounded-b-4xl relative">
 
 			<img :src="'/static/puzuri.jpg'" alt="" class="hidden md:block w-full h-full object-cover rounded-b-4xl">
-			<img :src="'/static/puzuri_mobi.jpg'" alt="" class="md:hidden w-full h-full object-cover rounded-b-4xl">
+			<img :src="'/static/puzuri_mobi.jpg'" alt="" class="md:hidden w-full h-full object-cover rounded-b-4xl object-top">
 
 
 			<div class="w-full top-0 absolute rounded-b-4xl bg-linear-to-b from-black/30 to-black h-full flex flex-col">

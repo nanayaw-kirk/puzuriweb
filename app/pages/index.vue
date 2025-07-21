@@ -1,6 +1,13 @@
 <template>
 	<div class="sections grid gap-6 md:gap-12">
-		
+
+		<Head>
+			<Title>{{$appName}} Group of Companies - Empowering Growth, Building Futures.</Title>
+			<Meta name="description" :content="`Group of Companies - Empowering Growth, Building Futures.`" />
+			<Meta name="keywords" :content="`Agriculture, Agric, Agro Company, Farm, Farmland, Farming, Mechanized Agriculture, Logistics, Last Mile Logistics, Construction, Construction Company, Real Estate`"></Meta>
+			<Meta name="robots" content="index, follow"></Meta>
+		</Head>
+
 
 		<div class="grid gap-6 md:gap-8">
 			<div class="container p-0">

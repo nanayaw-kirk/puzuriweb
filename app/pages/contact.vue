@@ -44,7 +44,7 @@
 					</div>
 					<div class="grid min-w-[280px] md:min-w-full">
 						<div class="w-full rounded-md aspect-video bg-found">
-							<img :src="'/static/accra_team.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
+							<img :src="'/static/accra.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
 						</div>
 
 						<div class="p-2 pt-5">

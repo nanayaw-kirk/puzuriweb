@@ -26,25 +26,15 @@
 
 		<section>
 			<div class="container grid gap-8 md:gap-20">
-				<div class="grid md:grid-cols-2 gap-6 md:gap-8">
-					<div class="grid">
+				<div class="flex justify-center">
+					<div class="grid max-w-xl">
 						<div class="w-full rounded-md aspect-square bg-found">
 							<img :src="'/team/rahman.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
 						</div>
 
-						<div class="p-2 pt-5">
-							<h5 class="font-black text-2xl">Abdul Rahman Yahaya</h5>
-							<span class="text-foreground/70">Executive Director</span>
-						</div>
-					</div>
-					<div class="grid">
-						<div class="w-full rounded-md aspect-square bg-found">
-							<img :src="'/team/iddrisu.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
-						</div>
-
-						<div class="p-2 pt-5">
-							<h5 class="font-black text-2xl">Dr. Iddrisu Yahaya</h5>
-							<span class="text-foreground/70">Board Chairman</span>
+						<div class="p-2 pt-5 flex flex-col">
+							<h5 class="font-black text-2xl md:text-center">Abdul Rahaman Yahaya</h5>
+							<span class="text-foreground/70 md:text-center">Executive Director</span>
 						</div>
 					</div>
 				</div>

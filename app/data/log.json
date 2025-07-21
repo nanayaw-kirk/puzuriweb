@@ -1,18 +1,22 @@
 [
  {
-  "question": "What crops does Puzuri Agro specialize in?",
-  "answer": "Puzuri Agro specializes in grains and certified seeds for soybeans, rice, cowpea, sorghum, and maize."
+  "question": "What logistics services does Puzuri Logistics provide?",
+  "answer": "Puzuri Logistics offers comprehensive supply chain solutions. Its services include transportation of goods by land, sea, and air, as well as warehousing, customs clearance, and supply chain optimization. This end-to-end logistics support ensures efficient movement and storage of products across Ghana."
 },
 {
-  "question": "How does Puzuri Agro ensure the quality of its seeds?",
-  "answer": "We maintain strict quality standards through partnerships with the Ministry of Food and Agriculture (MoFA) and the Savanna Agricultural Research Institute (SARI)."
+  "question": "Does Puzuri Logistics offer equipment and vehicle rental services?",
+  "answer": "Yes. Puzuri Logistics provides rental of heavy-duty machinery and vehicles, including trucks, excavators, and farm equipment. These rental services complement its transportation and warehousing offerings, meeting the needs of clients in various industries"
 },
 {
-  "question": "Does Puzuri Agro offer consulting services for farmers?",
-  "answer": "Yes, we provide agribusiness consultancy services to help farmers and organizations improve productivity and sustainability."
+  "question": "What geographic areas does Puzuri Logistics serve?",
+  "answer": "Puzuri Logistics operates throughout Ghana and beyond. The division manages logistics across Ghana and also offers international shipping by land, sea, and air, ensuring goods can be transported reliably to destinations outside Ghana"
+},
+{ 
+  "question": "How does Puzuri Logistics ensure efficiency and customer satisfaction?",
+  "answer": "Puzuri Logistics leverages state-of-the-art technology and best practices in supply chain management to streamline operations. The company emphasizes innovation and reliability, aiming to deliver excellence in every aspect of its service and to meet client needs promptly."
 },
 {
-  "question": "Is Puzuri Agro involved in value-added agricultural products?",
-  "answer": "Yes, we process and supply value-added agricultural products alongside our core seed and grain operations."
+  "question": "Does Puzuri Logistics handle warehousing and customs clearance?",
+  "answer": "Yes. In addition to transportation, Puzuri Logistics provides warehousing facilities and customs clearance services. This integrated approach allows clients to securely store goods and efficiently manage import/export procedures as part of its full-service logistics offerings"
 }
 ]
