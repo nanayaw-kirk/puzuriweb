@@ -67,7 +67,7 @@
 						<div class="grid">
 							
 							<h2 class="text-2xl md:text-4xl font-bold">How it Works</h2>
-							<p class="text-xs sm:text-base text-foreground/80">Get the latest news and updates from {{$appName}}</p>
+							<p class="text-xs sm:text-base text-foreground/80">Learn the ins and outs of the {{$appName}} Grower Scheme</p>
 						</div>
 						<div class="lg:col-span-2">
 							<home-grower-views></home-grower-views>

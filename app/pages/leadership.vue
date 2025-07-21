@@ -33,7 +33,7 @@
 						</div>
 
 						<div class="p-2 pt-5 flex flex-col">
-							<h5 class="font-black text-2xl md:text-center">Abdul Rahaman Yahaya</h5>
+							<h5 class="font-black text-2xl md:text-center">Abdul-Rahaman Yahaya</h5>
 							<span class="text-foreground/70 md:text-center">Executive Director</span>
 						</div>
 					</div>
@@ -77,7 +77,7 @@
 							</div>
 						</div>
 
-
+<!-- 
 						<div class="grid">
 							<div class="w-full rounded-md aspect-square bg-found">
 								<img :src="'/team/agro_dir.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
@@ -87,7 +87,7 @@
 								<h5 class="font-black text-sm sm:text-xl leading-5 sm:leading-none line-clamp-1">Bernu Zindam Bawa</h5>
 								<span class="text-xs sm:text-sm text-foreground/70">Director, Agro</span>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

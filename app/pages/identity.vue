@@ -2,151 +2,94 @@
 	<div class="page">
 
 		<Head>
-			<Title>{{$appName}} Group of Companies - Sustainability Statement</Title>
+			<Title>🚀 We’ve Evolved and We’re Excited to Share It With You! | {{$appName}} Group of Companies</Title>
 		</Head>
 		
 		<div class="sections grid gap-10 md:gap-20 pt-2 md:pt-10">
-			<section class="container max-w-4xl grid gap-6 md:gap-12">
+			<section class="container grid gap-4">
 				<div class="flex flex-col gap-4">
-					<h1 class="text-2xl sm:text-5xl font-black">
-						Building a Sustainable Legacy <br class="hidden lg:block"> Through Innovation and Impact
+					<h1 class="text-3xl sm:text-5xl lg:text-7xl font-black">
+						We've Evolved & We’re <br> Excited to Share It With You!
 					</h1>
+					<span class="text-xs uppercase text-froeground/80 order-first md:order-none">23rd July, 2025</span>
 
-					<p class="text-foreground/70 text-sm sm:text-base">
-						At Puzuri Group of Companies, sustainability is at the heart of our pursuit of innovation, excellence, and meaningful global impact. As we grow into a premier household name across agriculture, logistics, construction, and community development, we remain deeply committed to creating long-term value—for people, planet, and progress.
+					<p class="text-foreground/70 text-sm sm:text-base md:max-w-4xl">
+						Today marks a bold new chapter in our journey. We’re proud to unveil our refreshed brand identity, including a new logo, font system, and website, all designed to reflect who we are today and where we’re headed.
+
 					</p>
 				</div>
-
-				<div class="w-full h-fit bg-transparent -mt-5 ">
-					<img src="/static/sustainability.png" class="w-full h-full object-contain" alt="">
-				</div>
-
-				<p>We don’t just adopt sustainability practices—we embed them into every solution we deliver. From the way we grow food to how we move goods, build infrastructure, and support communities, our vision is clear: to lead with purpose, act with responsibility, and leave a legacy that matters.</p>
-
 			</section>
 
-
-			<section class="container max-w-4xl grid gap-6">
-
-				
+			<section>
+				<div class="container md:border md:rounded-lg md:p-8">
 
 
-				<div class="grid  gap-4 md:gap-6 items-start">
+					<div class="grid  gap-4 md:gap-6 items-start">
 
-					<div class="grid gap-4">
-
-						<h2 class="text-xl md:text-2xl font-bold">🌱 Environmental Innovation</h2>
-
-						<p class="text-sm sm:text-base text-foreground/80"> <b>Agriculture</b> We embrace regenerative agriculture and data-driven techniques to safeguard ecosystems while feeding growing populations. Our practices enhance soil health, conserve water, and promote biodiversity—driving food security with integrity.</p>
-
-
-						<p class="text-sm sm:text-base text-foreground/80"> <b>Logistics</b> In rethinking how goods move, we prioritize low-carbon logistics, smart routing, and cleaner transportation systems. We’re continuously innovating to reduce emissions and boost efficiency across the supply chain.</p>
-
-
-						<p class="text-sm sm:text-base text-foreground/80"> <b>Construction</b> Our construction projects integrate sustainable materials, energy-saving design, and resilient infrastructure. From green buildings to eco-friendly civil works, we are shaping environments that last—and inspire.</p>
-					</div>
-					
-				</div>
-
-			</section>
-
-
-
-
-			<section class="container max-w-4xl">
-
-				<div class="grid  gap-4 md:gap-6 items-start">
-
-					<div class="grid gap-4">
-
-						<h2 class="text-xl md:text-2xl font-bold">🤝 Impact-Driven Community Engagement</h2>
-
-						<div>
-							<p class="text-sm sm:text-base text-foreground/80 mb-4">
-								Through the Puzuri Foundation, we champion inclusive growth by:
+						<div class="grid mb-10 md:mb-0">
+							
+							<h2 class="text-2xl md:text-4xl font-bold">What's new?</h2>
+							<p class="text-sm sm:text-base text-foreground/80">
+								This evolution isn’t just about aesthetics. It’s about clarity, purpose, and aligning our brand with the innovation, growth, and vision that drives us forward. This transition is not about losing our roots, it’s about building on them. 
+								Our foundation of trust, community, and hard work remains unchanged. What’s evolving is how we deliver value.
 							</p>
+						</div>
 
-							<ul class="list-disc list-inside">
-								<li>Empowering smallholder farmers with the tools, training, and access to thrive.</li>
-								<li>Creating jobs and career pathways for youth and local communities in logistics and construction.</li>
-								<li>Partnering with underserved communities to co-create solutions that elevate quality of life.</li>
-							</ul>
+						
+						<div>
+							<partials-identity-views></partials-identity-views>
 						</div>
 					</div>
-					
-				</div>
 
+				</div>
 			</section>
 
+			<section>
+				<div class="container">
 
-
-			<section class="container max-w-4xl">
-
-				<div class="grid  gap-4 md:gap-6 items-start">
-
-					<div class="grid gap-4">
-
-						<h2 class="text-xl md:text-2xl font-bold">🌐 Aligning with the United Nations Sustainable Development Goals</h2>
-
+					<div class="p-5 md:p-8 bg-linear-to-b from-found to-pink-500/10 grid md:grid-cols-2 gap-4 md:gap-12  items-center rounded-2xl w-full">
 						<div>
-							<p class="text-sm sm:text-base text-foreground/80 mb-4">
-								We actively contribute to key SDGs, translating global goals into local action:
+							<div class="w-full aspect-[1/1.15] rounded-xl relative">
+								<img :src="'/team/rahman.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="">
+
+								<div class="top-0 left-0 absolute flex flex-col items-center justify-end w-full h-full p-6">
+									<div class="size-20 rounded-full flex flex-col items-center justify-center bg-linear-65 from-red-500 to-pink-500">
+										<Play class="size-10 stroke-white"/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-col w-full">
+							<h1 class="text-xl md:text-4xl font-black mb-6 leading-5 md:leading-none">
+								A Message from Mr. Abdul-Rahaman Yahaya, the Execcutive Director of {{$appNama}} Group of Companies 
+							</h1>
+
+							<p class="text-sm md:text-base mb-4">
+								“For years, our company has grown from deep local roots, built on hard work, relationships, and a commitment to serve. From agriculture to logistics, and construction, our businesses have touched lives and communities in meaningful ways.”
 							</p>
 
-							<ul class="list-disc list-inside">
-								<li><b>SDG 1 & 2: </b> Combatting poverty and hunger through resilient farming ecosystems.</li>
-								<li><b>SDG 6: </b> Expanding access to clean water via boreholes, irrigation, and waterway development.</li>
-								<li><b>SDG 8 & 10: </b> Driving decent work and reducing inequality through inclusive employment.</li>
-								<li><b>SDG 9 & 11: </b> Advancing infrastructure and sustainable cities with innovative, people-first design.</li>
-								<li><b>SDG 12: </b> Promoting responsible production and reducing waste across sectors.</li>
-								<li><b>SDG 17: </b> Scaling impact through partnerships with leading public and private institutions.</li>
-							</ul>
+
+							<ui-button size="lg" class="md:px-6 w-full md:w-fit" variant="outline">
+								<span>
+									Watch the Message
+								</span>
+
+								<Play/>
+							</ui-button>
 						</div>
 					</div>
-					
 				</div>
-
 			</section>
 
 
-			<section class="container max-w-4xl">
 
-				<div class="grid  gap-4 md:gap-6 items-start">
-
-					<div class="grid gap-4">
-
-						<h2 class="text-xl md:text-2xl font-bold">🤝 Partnerships that Power Progress</h2>
-
-						<p class="text-sm sm:text-base text-foreground/80">
-							We collaborate with visionary organizations—like ICOUR Limited, BioAquaGardens, and the National Service Scheme—to co-create solutions that improve lives and protect ecosystems. These alliances are not just strategic—they’re essential to achieving scale, speed, and shared success.
-						</p>
-					</div>
-					
-				</div>
-
+			<section class="container grid gap-6 md:gap-12">
+				<p class="text-foreground/70 text-sm sm:text-base md:max-w-4xl">
+					We’re incredibly grateful to our team, partners, and community who’ve been part of this journey.
+					This is just the beginning of our next chapter and we’re excited to shape the future, together.
+				</p>
 			</section>
 
-
-			<section class="container max-w-4xl">
-
-				<div class="grid  gap-4 md:gap-6 items-start">
-
-					<div class="grid gap-4">
-
-						<h2 class="text-xl md:text-2xl font-bold">✨ Our Promise</h2>
-
-						<p class="text-sm sm:text-base text-foreground/80">
-							As we grow into a global name known for bold ideas and lasting results, our commitment to sustainability remains unwavering. It’s the foundation of everything we do—and the future we are determined to shape. We believe in a world where business is a force for good. Where innovation solves real problems. And where progress leaves no one behind.
-						</p>
-
-						<p class="text-sm sm:text-base text-foreground/80">
-							At Puzuri, we are not only building businesses—we are building a better tomorrow.
-						</p>
-					</div>
-					
-				</div>
-
-			</section>
 
 
 
@@ -155,5 +98,5 @@
 	</div>
 </template>
 <script setup lang="ts">
-
+import { Play } from 'lucide-vue-next'
 </script>
