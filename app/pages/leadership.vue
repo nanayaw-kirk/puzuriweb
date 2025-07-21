@@ -28,7 +28,7 @@
 			<div class="container grid gap-8 md:gap-20">
 				<div class="flex justify-center">
 					<div class="grid max-w-xl">
-						<div class="w-full rounded-md aspect-square bg-found">
+						<div class="w-full rounded-md aspect-[1/1.2] bg-found">
 							<img :src="'/team/rahman.jpg'" class="w-full h-full object-cover object-top rounded-[inherit]" alt="Project Image">
 						</div>
 

@@ -140,7 +140,7 @@
 						</p>
 
 						<p class="text-sm sm:text-base text-foreground/80">
-							At Puzuri, we are not only building businesses—we are building futures.
+							At Puzuri, we are not only building businesses—we are building a better tomorrow.
 						</p>
 					</div>
 					
