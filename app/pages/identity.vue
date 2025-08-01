@@ -61,7 +61,7 @@
 						</div>
 						<div class="flex flex-col w-full">
 							<h1 class="text-xl md:text-4xl font-black mb-6 leading-5 md:leading-none">
-								A Message from Mr. Abdul-Rahaman Yahaya, the Execcutive Director of {{$appNama}} Group of Companies 
+								A Message from Mr. Abdul-Rahaman Yahaya, the Chief Executive Officer of {{$appNama}} Group of Companies 
 							</h1>
 
 							<p class="text-sm md:text-base mb-4">

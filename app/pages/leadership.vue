@@ -34,7 +34,7 @@
 
 						<div class="p-2 pt-5 flex flex-col">
 							<h5 class="font-black text-2xl md:text-center">Abdul-Rahaman Yahaya</h5>
-							<span class="text-foreground/70 md:text-center">Executive Director</span>
+							<span class="text-foreground/70 md:text-center">Chief Executive Officer (CEO)</span>
 						</div>
 					</div>
 				</div>
