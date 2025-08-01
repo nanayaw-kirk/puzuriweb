@@ -4,6 +4,17 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+  $production: {
+    scripts: {
+      registry: {
+        googleAnalytics: {
+          id: process.env.GA,
+        }
+      }
+    }
+  },
+
+
   devtools: { enabled: false },
   css: ['./app/assets/css/tailwind.css'],
 
@@ -13,7 +24,11 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['shadcn-nuxt', '@vueuse/nuxt'],
+  modules: [
+    'shadcn-nuxt',
+    '@vueuse/nuxt',
+    '@nuxt/scripts'
+  ],
 
 
   shadcn: {

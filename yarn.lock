@@ -1228,6 +1228,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxt/kit@npm:^4.0.0":
+  version: 4.0.2
+  resolution: "@nuxt/kit@npm:4.0.2"
+  dependencies:
+    c12: "npm:^3.1.0"
+    consola: "npm:^3.4.2"
+    defu: "npm:^6.1.4"
+    destr: "npm:^2.0.5"
+    errx: "npm:^0.1.0"
+    exsolve: "npm:^1.0.7"
+    ignore: "npm:^7.0.5"
+    jiti: "npm:^2.5.1"
+    klona: "npm:^2.0.6"
+    mlly: "npm:^1.7.4"
+    ohash: "npm:^2.0.11"
+    pathe: "npm:^2.0.3"
+    pkg-types: "npm:^2.2.0"
+    scule: "npm:^1.3.0"
+    semver: "npm:^7.7.2"
+    std-env: "npm:^3.9.0"
+    tinyglobby: "npm:^0.2.14"
+    ufo: "npm:^1.6.1"
+    unctx: "npm:^2.4.1"
+    unimport: "npm:^5.2.0"
+    untyped: "npm:^2.0.0"
+  checksum: 10c0/35b70dd9f75a3c62427e11fef98e4e9f328213d984ad6d5442d3473d86ff288181dd2195344bf9565e2a9c328f53c64da39504c689be060808280d70a0794300
+  languageName: node
+  linkType: hard
+
 "@nuxt/schema@npm:3.17.6":
   version: 3.17.6
   resolution: "@nuxt/schema@npm:3.17.6"
@@ -1238,6 +1267,45 @@ __metadata:
     pathe: "npm:^2.0.3"
     std-env: "npm:^3.9.0"
   checksum: 10c0/29a07c45cd80b4848ca2d55dd29df7598b564713def7d87ba35696f30c75b7e52275674a89ab3157f1194b0125f4ee488efe2146af8fa5f83c6848aecad3cc5e
+  languageName: node
+  linkType: hard
+
+"@nuxt/scripts@npm:0.11.10":
+  version: 0.11.10
+  resolution: "@nuxt/scripts@npm:0.11.10"
+  dependencies:
+    "@nuxt/kit": "npm:^4.0.0"
+    "@vueuse/core": "npm:^13.5.0"
+    consola: "npm:^3.4.2"
+    defu: "npm:^6.1.4"
+    h3: "npm:^1.15.3"
+    magic-string: "npm:^0.30.17"
+    ofetch: "npm:^1.4.1"
+    ohash: "npm:^2.0.11"
+    pathe: "npm:^2.0.3"
+    pkg-types: "npm:^2.2.0"
+    sirv: "npm:^3.0.1"
+    std-env: "npm:^3.9.0"
+    ufo: "npm:^1.6.1"
+    unplugin: "npm:^2.3.5"
+    unstorage: "npm:^1.16.1"
+    valibot: "npm:^1.1.0"
+  peerDependencies:
+    "@stripe/stripe-js": ^7.0.0
+    "@types/google.maps": ^3.58.1
+    "@types/vimeo__player": ^2.18.3
+    "@types/youtube": ^0.1.0
+    "@unhead/vue": ^2.0.3
+  peerDependenciesMeta:
+    "@stripe/stripe-js":
+      optional: true
+    "@types/google.maps":
+      optional: true
+    "@types/vimeo__player":
+      optional: true
+    "@types/youtube":
+      optional: true
+  checksum: 10c0/b456bf77cab4004148437cb7285cab1c69a893b475fe2054538a6cd4d894b5229504ff165ebdf2c41ce686d6f26ecdae6a1e6731bc23ab7a160ded4e88b4df80
   languageName: node
   linkType: hard
 
@@ -2364,6 +2432,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@unhead/vue@npm:^2.0.3":
+  version: 2.0.13
+  resolution: "@unhead/vue@npm:2.0.13"
+  dependencies:
+    hookable: "npm:^5.5.3"
+    unhead: "npm:2.0.13"
+  peerDependencies:
+    vue: ">=3.5.18"
+  checksum: 10c0/e31c56fecd6eadbb41bd42243b387cca46848d3fe4331421d6b35d1b94755773e4ff27f9f7bfb74ac1ade0e1323ef7cc6b85f0e65522d52fb579eb00aebaf3a0
+  languageName: node
+  linkType: hard
+
 "@vercel/nft@npm:0.29.4, @vercel/nft@npm:^0.29.4":
   version: 0.29.4
   resolution: "@vercel/nft@npm:0.29.4"
@@ -3140,6 +3220,31 @@ __metadata:
     magicast:
       optional: true
   checksum: 10c0/564c3c835c3238541501f4cbac010aadaea3471c8fe8d696ed38d7f884f3d8642106e0206e204b0fe3e9cb64700462fde4211e9ff430fd624e19de059126f4a4
+  languageName: node
+  linkType: hard
+
+"c12@npm:^3.1.0":
+  version: 3.2.0
+  resolution: "c12@npm:3.2.0"
+  dependencies:
+    chokidar: "npm:^4.0.3"
+    confbox: "npm:^0.2.2"
+    defu: "npm:^6.1.4"
+    dotenv: "npm:^17.2.1"
+    exsolve: "npm:^1.0.7"
+    giget: "npm:^2.0.0"
+    jiti: "npm:^2.5.1"
+    ohash: "npm:^2.0.11"
+    pathe: "npm:^2.0.3"
+    perfect-debounce: "npm:^1.0.0"
+    pkg-types: "npm:^2.2.0"
+    rc9: "npm:^2.1.2"
+  peerDependencies:
+    magicast: ^0.3.5
+  peerDependenciesMeta:
+    magicast:
+      optional: true
+  checksum: 10c0/b0a72e639d0bb57d3611b515c31e7df5107dfc078018b54e93440b1487a254e5c8b76519c90fd54a4993f631f237e0b44be30acc79096079bb93a4f5ec7740f2
   languageName: node
   linkType: hard
 
@@ -3986,6 +4091,13 @@ __metadata:
   version: 16.6.1
   resolution: "dotenv@npm:16.6.1"
   checksum: 10c0/15ce56608326ea0d1d9414a5c8ee6dcf0fffc79d2c16422b4ac2268e7e2d76ff5a572d37ffe747c377de12005f14b3cc22361e79fc7f1061cce81f77d2c973dc
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^17.2.1":
+  version: 17.2.1
+  resolution: "dotenv@npm:17.2.1"
+  checksum: 10c0/918dd2f9d8b8f86b0afabad9534793d51de3718c437f9e7b6525628cf68c1d4ae768cc37a5afff38c066f58a8ecf549f4ac6cd5617485bd328e826112cc2650a
   languageName: node
   linkType: hard
 
@@ -5375,6 +5487,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jiti@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "jiti@npm:2.5.1"
+  bin:
+    jiti: lib/jiti-cli.mjs
+  checksum: 10c0/f0a38d7d8842cb35ffe883038166aa2d52ffd21f1a4fc839ae4076ea7301c22a1f11373f8fc52e2667de7acde8f3e092835620dd6f72a0fbe9296b268b0874bb
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -6394,7 +6515,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-app@workspace:."
   dependencies:
+    "@nuxt/scripts": "npm:0.11.10"
     "@tailwindcss/vite": "npm:^4.1.11"
+    "@unhead/vue": "npm:^2.0.3"
     "@vueuse/core": "npm:^13.5.0"
     "@vueuse/nuxt": "npm:13.4.0"
     class-variance-authority: "npm:^0.7.1"
@@ -6906,6 +7029,13 @@ __metadata:
   version: 4.0.2
   resolution: "picomatch@npm:4.0.2"
   checksum: 10c0/7c51f3ad2bb42c776f49ebf964c644958158be30d0a510efd5a395e8d49cb5acfed5b82c0c5b365523ce18e6ab85013c9ebe574f60305892ec3fa8eee8304ccc
+  languageName: node
+  linkType: hard
+
+"picomatch@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "picomatch@npm:4.0.3"
+  checksum: 10c0/9582c951e95eebee5434f59e426cddd228a7b97a0161a375aed4be244bd3fe8e3a31b846808ea14ef2c8a2527a6eeab7b3946a67d5979e81694654f939473ae2
   languageName: node
   linkType: hard
 
@@ -8594,6 +8724,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"unhead@npm:2.0.13":
+  version: 2.0.13
+  resolution: "unhead@npm:2.0.13"
+  dependencies:
+    hookable: "npm:^5.5.3"
+  checksum: 10c0/38c7ebaf47678c24fb625bb978f934bac8a649618625698d55decb1c66e30105240e38b8530eed0cf699046abce5631922fe0b8ad02a77fcd8efebc9dca9b0f3
+  languageName: node
+  linkType: hard
+
 "unicorn-magic@npm:^0.1.0":
   version: 0.1.0
   resolution: "unicorn-magic@npm:0.1.0"
@@ -8627,6 +8766,28 @@ __metadata:
     unplugin: "npm:^2.3.5"
     unplugin-utils: "npm:^0.2.4"
   checksum: 10c0/d24727adc5423b621ec9c5298a99767cdf874b22d05b4f4c25b7c57bbbad4b35069c6ddee1db032b04e2f9ddd73ab6d7d1121e9bbbc76003b08408380e08d189
+  languageName: node
+  linkType: hard
+
+"unimport@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "unimport@npm:5.2.0"
+  dependencies:
+    acorn: "npm:^8.15.0"
+    escape-string-regexp: "npm:^5.0.0"
+    estree-walker: "npm:^3.0.3"
+    local-pkg: "npm:^1.1.1"
+    magic-string: "npm:^0.30.17"
+    mlly: "npm:^1.7.4"
+    pathe: "npm:^2.0.3"
+    picomatch: "npm:^4.0.3"
+    pkg-types: "npm:^2.2.0"
+    scule: "npm:^1.3.0"
+    strip-literal: "npm:^3.0.0"
+    tinyglobby: "npm:^0.2.14"
+    unplugin: "npm:^2.3.5"
+    unplugin-utils: "npm:^0.2.4"
+  checksum: 10c0/9e627371a84fab3359837d48a110e20cb7666f61d81f59daa094fbd4c644b5652dfb539cb9a745415e97abf1317faa7e9a805ad7fe2761a9b9dc7c6ff661555b
   languageName: node
   linkType: hard
 
@@ -8788,6 +8949,78 @@ __metadata:
   languageName: node
   linkType: hard
 
+"unstorage@npm:^1.16.1":
+  version: 1.16.1
+  resolution: "unstorage@npm:1.16.1"
+  dependencies:
+    anymatch: "npm:^3.1.3"
+    chokidar: "npm:^4.0.3"
+    destr: "npm:^2.0.5"
+    h3: "npm:^1.15.3"
+    lru-cache: "npm:^10.4.3"
+    node-fetch-native: "npm:^1.6.6"
+    ofetch: "npm:^1.4.1"
+    ufo: "npm:^1.6.1"
+  peerDependencies:
+    "@azure/app-configuration": ^1.8.0
+    "@azure/cosmos": ^4.2.0
+    "@azure/data-tables": ^13.3.0
+    "@azure/identity": ^4.6.0
+    "@azure/keyvault-secrets": ^4.9.0
+    "@azure/storage-blob": ^12.26.0
+    "@capacitor/preferences": ^6.0.3 || ^7.0.0
+    "@deno/kv": ">=0.9.0"
+    "@netlify/blobs": ^6.5.0 || ^7.0.0 || ^8.1.0 || ^9.0.0 || ^10.0.0
+    "@planetscale/database": ^1.19.0
+    "@upstash/redis": ^1.34.3
+    "@vercel/blob": ">=0.27.1"
+    "@vercel/kv": ^1.0.1
+    aws4fetch: ^1.0.20
+    db0: ">=0.2.1"
+    idb-keyval: ^6.2.1
+    ioredis: ^5.4.2
+    uploadthing: ^7.4.4
+  peerDependenciesMeta:
+    "@azure/app-configuration":
+      optional: true
+    "@azure/cosmos":
+      optional: true
+    "@azure/data-tables":
+      optional: true
+    "@azure/identity":
+      optional: true
+    "@azure/keyvault-secrets":
+      optional: true
+    "@azure/storage-blob":
+      optional: true
+    "@capacitor/preferences":
+      optional: true
+    "@deno/kv":
+      optional: true
+    "@netlify/blobs":
+      optional: true
+    "@planetscale/database":
+      optional: true
+    "@upstash/redis":
+      optional: true
+    "@vercel/blob":
+      optional: true
+    "@vercel/kv":
+      optional: true
+    aws4fetch:
+      optional: true
+    db0:
+      optional: true
+    idb-keyval:
+      optional: true
+    ioredis:
+      optional: true
+    uploadthing:
+      optional: true
+  checksum: 10c0/753ed7a5bb0e6b6a4803912428762b5393e78262e94489239c4bd7f718bf95e0f71bb2cf3d3f178f45abcfaf69160fa868b8a82e1b34c1b7dc4609344b1cadad
+  languageName: node
+  linkType: hard
+
 "untun@npm:^0.1.3":
   version: 0.1.3
   resolution: "untun@npm:0.1.3"
@@ -8878,6 +9111,18 @@ __metadata:
   bin:
     uuid: dist/esm/bin/uuid
   checksum: 10c0/34aa51b9874ae398c2b799c88a127701408cd581ee89ec3baa53509dd8728cbb25826f2a038f9465f8b7be446f0fbf11558862965b18d21c993684297628d4d3
+  languageName: node
+  linkType: hard
+
+"valibot@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "valibot@npm:1.1.0"
+  peerDependencies:
+    typescript: ">=5"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/39580b4e4683cc44398fb775e88c03639dbaa7e6f587df416125916cb6307292d45df18f656054e8846093ced13a2d2fdc98659da6dd104d1d20180edcbd99d4
   languageName: node
   linkType: hard
 
