@@ -24,7 +24,7 @@
 					<a href="https://www.instagram.com/puzuri_group/" target="blank" class="size-10 flex flex items-center justify-center border border-white rounded-full">
 						<Instagram/>
 					</a>
-					<a href="https://www.youtube.com/channel/UCrST4RBLNf3tbGpfkACJSIA%20" target="blank" class="size-10 flex flex items-center justify-center border border-white rounded-full">
+					<a href="https://www.youtube.com/@PuzuriGroup" target="blank" class="size-10 flex flex items-center justify-center border border-white rounded-full">
 						<Youtube/>
 					</a>
 					<!-- <a href="" target="blank" class="size-10 flex flex items-center justify-center border border-white rounded-full"></a> -->
