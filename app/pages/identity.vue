@@ -11,7 +11,7 @@
 					<h1 class="text-3xl sm:text-5xl lg:text-7xl font-black">
 						We've Evolved & We’re <br> Excited to Share It With You!
 					</h1>
-					<span class="text-xs uppercase text-froeground/80 order-first md:order-none">23rd July, 2025</span>
+					<span class="text-xs uppercase text-froeground/80 order-first md:order-none">1st August, 2025</span>
 
 					<p class="text-foreground/70 text-sm sm:text-base md:max-w-4xl">
 						Today marks a bold new chapter in our journey. We’re proud to unveil our refreshed brand identity, including a new logo, font system, and website, all designed to reflect who we are today and where we’re headed.
