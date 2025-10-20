@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "puzuri.com",
+  "Id": "ffa35ee5-0a7d-4382-8de9-ab80bd7f2b36"
+}
